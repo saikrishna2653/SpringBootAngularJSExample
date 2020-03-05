@@ -70,7 +70,7 @@
                 function _refreshCustomerData() {
                     $http({
                         method : 'GET',
-                        url : 'http://localhost:8080/getAllCustomers'
+                        url : 'http://52.66.239.127:8080/getAllCustomers'
                     }).then(function successCallback(response) {
                         $scope.customers = response.data;
                     }, function errorCallback(response) {
